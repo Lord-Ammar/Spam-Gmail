@@ -111,7 +111,7 @@ try:
 		api()
 		udah()
 	if tanya == "2":
-		os.system("xdg-open https://wa.me/628822968?text=*Report:* ")
+		os.system("xdg-open https://wa.me/6288229683561?text=*Report:* ")
 		udah()
 	if tanya == "3":
 		logo1()

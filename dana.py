@@ -81,7 +81,7 @@ except ValueError:
 def api():
 	logo1()
 	mail2 = input(f"{W}[{R}•{W}] Nomor: ")
-	mail = input(f"{W}[{R}•{W}] Email Nmr-y: ")
+	mail = input(f"{W}[{R}•{W}] Email : ")
 	jumlah = input(f"{W}[{R}•{W}] Jumlah Spam: ")
 	for i in range(int(jumlah)):
 		dat={"Host":"api.indodana.com","accept":"application/json, text/plain, */*","user-agent":"Mozilla/5.0 (Linux; Android 10; M2006C3LG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36","content-type":"application/json;charset=UTF-8","origin":"https://www.indodana.id","sec-fetch-site":"cross-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"https://www.indodana.id/","accept-encoding":"gzip, deflate, br","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
